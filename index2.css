@@ -1,0 +1,196 @@
+header {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: lightpink;
+    display: block;
+    width: 200px;
+    height: 80px;
+    margin: auto;
+}
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 550;
+    margin-left: 30px;
+    text-decoration: underline;
+    margin-bottom: 40px;
+}
+
+.colors-container {
+    border: gray 3px solid;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 15px;
+ }
+.cool-blue {
+    display: inline-block;
+    background-color: #2d5dcc;
+    width: 400px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 30px;
+    padding: .1%;
+}
+
+.pink {
+    display: inline-block;
+    background-color: #d957d9;
+    width: 400px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: .1%;
+}
+
+.mint-green {
+    display: inline-block;
+    background-color: #4fe0b0;
+    width: 400px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: .1%;
+}
+
+.beige {
+    display: inline-block;
+    background-color: #efd9ca;
+    width: 400px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: .1%;
+    margin: 30px;
+}
+
+.fonts-container {
+        border: gray 3px solid;
+        margin-left: 300px;
+        margin-right: 300px;
+        margin-top: 15px;
+}
+
+.source-code-pro-semi-title {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: lighter;
+    text-decoration: underline;
+    margin-left: 30px;
+    font-size: 24px;
+}
+
+.source-code-pro-regular {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.source-code-pro-bold {
+        font-family: 'Source Code Pro', monospace;
+        font-size: 20px;
+        margin-left: 30px;
+        font-weight: bold;
+
+}
+
+.source-code-pro-italic {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    margin-left: 30px;
+    font-style: italic;
+}
+
+.poppins-semi-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    text-decoration: underline;
+    margin-left: 30px;
+    font-size: 24px;
+}
+.poppins-regular {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.poppins-bold {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.poppins-italic {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+    font-style: italic;
+}
+
+.nunito-sans-semi-title {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: lighter;
+    text-decoration: underline;
+    margin-left: 30px;
+    font-size: 24px;
+}
+
+.nunito-sans-regular {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.nunito-sans-bold {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.nunito-sans-italic {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+    font-weight: italic;
+}
+
+.text-styles-container {
+    border: gray 3px solid;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 15px;
+}
+
+#h1-text {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#h2-text {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#paragraph-text {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.h1-text-panel, 
+.h2-text-panel,
+.paragraph-text-panel {
+    margin-left: 30px;
+    font-size: 17px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 5px;
+}
