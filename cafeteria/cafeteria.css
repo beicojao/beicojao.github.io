@@ -1,0 +1,181 @@
+body{
+    background-color: black;
+    opacity: 0.9;
+    color: seashell;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    width: 1200px;
+    height: 69px;
+    position: fixed;
+    background: black;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    z-index: 1;
+    margin: 0 auto;
+    left: 0;
+    right: 0; 
+    flex-wrap: wrap;
+}
+
+.tea-cozy-logo{ 
+    height: 50px;
+    margin-right: 600px;
+    transform: translateY(20%);
+}
+
+.header-links{
+    display: inline-flex;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: seashell;
+    text-indent: 30px;
+}
+
+.top-content{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative; 
+    padding: 0;
+    left: 0;
+    right: 0; 
+    
+}
+
+.top-image{
+    width: 1200px;
+    border: 1px solid seashell;
+    height: 631px;
+    margin-top: 69px;
+    z-index: 0;
+    position: relative;
+}
+
+.top-content h2
+,.top-content h4{
+    width: 1200px;
+    color: seashell;
+    position: absolute;
+    z-index: 0;
+    background-color: black;
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-content h2{
+    margin-top: -60px;
+}
+.monthly-tea{
+    height: 200px;
+    width: 300px;
+}
+.center-content{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.center-content h2, 
+.center-content h3{
+    align-items: top;
+    position: absolute;
+    color: seashell;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center-content h2{
+    margin-top: -25px;
+}
+
+.center-images{
+    margin-top: 69px;
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    align-content: space-evenly;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    position: relative;
+}
+
+.berry-blitz{
+    left: 70px;
+    top: 250px;
+}
+
+.rum-tea{
+    left: 430px;
+    top: 250px;
+}
+
+.seasonal-donuts{
+    right: 70px;
+    top: 250px;
+}
+
+.myrtle-ave{
+    left: 270px;
+    bottom: 0;
+}
+
+.bedford-bizarre{
+    right: 230px;
+    bottom: 0;
+}
+
+.bottom-content{
+    margin-top: 69px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    left: 0;
+    right: 0;
+}
+
+.bottom-content img{
+    height: 500px;
+    width: 1200px;
+    opacity: 0.9;
+    border: 1px solid seashell;
+}
+
+.bottom-content h2{
+    position: absolute;
+    top: 30px;
+    margin-bottom: 10px;
+}
+
+.downtown-address{
+    margin-right: 680px;
+    position: absolute;
+    background-color: black;
+    width: 300px;
+    padding: 70px 0;
+}
+
+.east-bayside-address{
+    position: absolute;
+    background-color: black;
+    width: 300px;
+    padding: 70px 0;
+}
+
+.oakdale-address{
+    position: absolute;
+    margin-left: 680px;
+    background-color: black;
+    width: 300px;
+    padding: 70px 0;
+}
